@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - ProductAddedToShoppingCartSuccessFullyTest</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>ProductAddedToShoppingCartSuccessFullyTest</h1>
+<p>
+  Test duration: 21.556s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testsuit.ProductAddedToShoppingCartSuccessFully</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductArrangeInAlphaBaticalOrder
+      </td>
+  <td class="duration">
+    17.258s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on computer link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> partial link text: Compute]<br>
+                                Clicking on desktop link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> partial link text: Deskto]<br>
+                                Clicking on login link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> partial link text: Deskto]<br>
+                                Clicking on sortby link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> id: products-orderby]<br>
+                                Clicking on sortbyposition link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> xpath: //option[contains(text(),'Name: A to Z')]]<br>
+                                Clicking on addtocart link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> xpath: //body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/button[1]]<br>
+                                Clicking on processor [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> xpath: //select[@id='product_attribute_1']]<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\surek\IdeaProjects\nopcom1/test-output/html/verifyProductArrangeInAlphaBaticalOrderWed_Jun_23_15_11_57_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\surek\IdeaProjects\nopcom1/test-output/html/verifyProductArrangeInAlphaBaticalOrderWed_Jun_23_15_11_57_BST_2021.jpg><img src=C:\Users\surek\IdeaProjects\nopcom1/test-output/html/verifyProductArrangeInAlphaBaticalOrderWed_Jun_23_15_11_57_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 4<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;LAPTOP-CNJI45NG&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: driver.version: unknown</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)<br />
+              org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)<br />
+              com.nopcommerce.demo.utility.Utility.selectByValueFromDropDown(Utility.java:136)<br />
+              com.nopcommerce.demo.pages.BuildYourOwnComputer.buildyourowncomputerproductselectprocessor(BuildYourOwnComputer.java:69)<br />
+              com.nopcommerce.demo.testsuit.ProductAddedToShoppingCartSuccessFully.verifyProductArrangeInAlphaBaticalOrder(ProductAddedToShoppingCartSuccessFully.java:33)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,6 @@
+2021-06-23 15:06:108 INFO  Computer :44 - Clicking on computer link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> partial link text: Compute]
+2021-06-23 15:06:237 INFO  Computer :48 - Clicking on desktop link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> partial link text: Deskto]
+2021-06-23 15:06:332 INFO  Computer :19 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> partial link text: Deskto]
+2021-06-23 15:06:541 INFO  Computer :26 - Clicking on sortby link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> id: products-orderby]
+2021-06-23 15:06:621 INFO  Computer :30 - Clicking on sortbyposition link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> xpath: //option[contains(text(),'Name: A to Z')]]
+2021-06-23 15:06:746 INFO  Computer :59 - Clicking on addtocart link : [[ChromeDriver: chrome on WINDOWS (bba0c397767f607e5a00ecdc5958c11a)] -> xpath: //body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/button[1]]
